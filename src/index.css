@@ -1,0 +1,70 @@
+body {
+  background: #555;
+  color: white;
+}
+
+input {
+  display: block;
+  width: 95%;
+  margin: 3px 0;
+  border-radius: 10px;
+  border-color: lightgray;
+  height: 2rem;
+  border: none;
+  outline: none;
+}
+
+p {
+  color: red;
+  font-size: 10px;
+  text-align: left;
+}
+
+.calculator {
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  width: 50%;
+  border-radius: 4px;
+  margin-top: 30px;
+  background: #918f8c;
+  box-shadow: 5px 17px 10px 0px black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form-items {
+  display: table;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3px;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  border: none;
+  margin: 10px 0;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 95%;
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  transition: 0.5s ease-in;
+}
+
+#label {
+  font-size: 15px;
+  text-align: left;
+}
